@@ -59,8 +59,9 @@ export function links() {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "<blog.kwkang.dev/>",
+  title: "강경원 블로그",
   viewport: "width=device-width,initial-scale=1",
+  "og:image": "https://avatars.githubusercontent.com/u/73323028?v=4",
 });
 
 export default function App() {
